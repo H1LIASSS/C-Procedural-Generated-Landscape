@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\t7929\source\repos\ProceduralGeneration\ProceduralGeneration\Source.cpp(53,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\t7929\source\repos\ProceduralGeneration\ProceduralGeneration\Source.cpp(54,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ProceduralGeneration.vcxproj -> C:\Users\t7929\source\repos\ProceduralGeneration\x64\Debug\ProceduralGeneration.exe
