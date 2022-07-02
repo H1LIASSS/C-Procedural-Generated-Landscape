@@ -5,7 +5,7 @@ using namespace std;
 
 struct Color
 {
-    int r = 255, g = 255, b = 255; /*Almond Yellow as default color*/
+    int r = 255, g = 255, b = 255; /*White as default color*/
 };
 
 struct Point3 /*3d unit*/
@@ -61,10 +61,9 @@ int main()
     }
 
     /*Triangulazing landscape*/
-    const int s = 512;
+    const int s = (n*n)*2;
     //Count of triangles are defining by formula 
     //-> (n^2)*2 because n^2 is count of squares in place 
-    //-> triangles is x2. So we can compact it in to 2^(n+1) or 2^g 
     Triangle v[s];
 
     int t = 0;  //in iteration we blending square in 2 triangles. So the step will be 2.
@@ -82,6 +81,7 @@ int main()
             t+=2;
         }
     }
+    cout << t << endl;
 
     /*Grid filled and blended by triangles*/
 
@@ -104,7 +104,7 @@ int main()
 
         
         glBegin(GL_TRIANGLES);
-            for (int i = 0; i < pow(2, g - 1); i++)
+            for (int i = 0; i < s; i++)
             {   
                 glVertex3f(v[i].a.x, v[i].a.y, v[i].a.z);
                 glColor3f(255, 0, 0);
