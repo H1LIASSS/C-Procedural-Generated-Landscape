@@ -5,8 +5,10 @@
 class Landscape : virtual public Mesh
 {
 public:
-	Landscape(int _n);
+	Landscape(int n);
+	int& getTriangles() { return triangles; };
 protected:
 
 private:
+	int triangles = 0;
 };

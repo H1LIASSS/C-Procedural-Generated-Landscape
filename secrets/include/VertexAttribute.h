@@ -13,7 +13,7 @@ public:
 private:
 	VertexBuffer vbo;
 	ElementBuffer ebo;
-	GLuint vao;
+	GLuint vao = -1;
 protected:
 };
 

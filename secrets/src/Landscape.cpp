@@ -6,6 +6,7 @@ using namespace std;
 
 Landscape::Landscape(int n)
 {
+    triangles = n * n * 2*4;
 
     std::vector<Point3> grid;
     int g = n + 1;
@@ -25,9 +26,6 @@ Landscape::Landscape(int n)
     glGenBuffers(1, &vb);
 	glBindBuffer(GL_ARRAY_BUFFER, vb);
 	glBufferData(GL_ARRAY_BUFFER, grid.size()*sizeof(Point3), grid.data(), GL_DYNAMIC_DRAW);
-    char d[3000];
-    glGetBufferSubData(GL_ARRAY_BUFFER, 1, sizeof(Point3) * 121, d);
-    std::cout << d;
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 
@@ -46,9 +44,11 @@ Landscape::Landscape(int n)
 
         indicies.push_back(i + 1);
         indicies.push_back(i + g);
+        indicies.push_back(i + g + 1);
         z++;
     }
 
+    indicies;
     GLuint eb;
     glGenBuffers(1, &eb);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, eb);

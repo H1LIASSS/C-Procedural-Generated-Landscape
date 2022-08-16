@@ -16,5 +16,5 @@ public:
 private:
 
 protected:
-	GLuint buffer = 0;
+	GLuint buffer = -1;
 };

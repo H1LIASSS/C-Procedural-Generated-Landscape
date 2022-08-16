@@ -15,7 +15,7 @@ const GLchar* fragmentShaderSource = "#version 460 core\n"
 "out vec4 color;\n"
 "void main()\n"
 "{\n"
-"color = vec4(0.0f, 0.9f, 0.9f, 1.0f);\n"
+"color = vec4(0.0f, 1.0f, 0.0f, 1.0f);\n"
 "}\n\0";
 
 
@@ -85,7 +85,7 @@ int main()
         glUseProgram(shaderProgram);
         glBindVertexArray(lnd.getVAO());
         glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-        glDrawElements(GL_TRIANGLES, 121, GL_UNSIGNED_INT, 0);
+        glDrawElements(GL_TRIANGLES, lnd.getTriangles(), GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
         glfwSwapBuffers(window);
         glfwPollEvents();
