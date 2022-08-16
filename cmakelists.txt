@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.2)
+project(ProceduralGeneration)
+set(CMAKE_CXX_STANDART 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
+set(INCLUDE 
+	secrets/include/Units.h
+	secrets/include/Landscape.h
+	secrets/include/Buffer.h
+	secrets/include/ElementBuffer.h
+	secrets/include/VertexBuffer.h
+	secrets/include/VertexAttribute.h
+	secrets/include/Mesh.h)
+
+set(SOURCE
+	secrets/src/main.cpp
+	secrets/src/Landscape.cpp
+	secrets/src/Buffer.cpp
+	secrets/src/ElementBuffer.cpp
+	secrets/src/VertexBuffer.cpp
+	secrets/src/VertexAttribute.cpp
+	secrets/src/Mesh.cpp)
+	
+add_executable(ProceduralGeneration ${SOURCE} ${INCLUDE})	
+	
+add_subdirectory(lib/glad)
+target_link_libraries(ProceduralGeneration PUBLIC GLAD)
+target_include_directories(ProceduralGeneration PUBLIC lib/glad/include)
+
+target_include_directories(ProceduralGeneration PUBLIC secrets/include)
+
+add_subdirectory(lib/glfw-master)
+target_link_libraries(ProceduralGeneration PUBLIC glfw)
+target_include_directories(ProceduralGeneration PUBLIC lib/glfw-master/include)
+target_include_directories(ProceduralGeneration PUBLIC lib/glm-master/glm)
