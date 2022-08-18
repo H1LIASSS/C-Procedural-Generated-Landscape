@@ -5,6 +5,7 @@
 
 using namespace std;
 
+
 void projectInit()
 {
     glfwInit();
@@ -14,6 +15,7 @@ void projectInit()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 }
+
 void windowInit(GLFWwindow* window, int width, int height)
 {
     glfwMakeContextCurrent(window);
@@ -26,13 +28,12 @@ int main()
 {   
     projectInit();
 
+    int w = 640, h = 640;
     GLFWwindow* window = glfwCreateWindow(640, 640, "ProceduralGeneration ddgen", NULL, NULL);
-    windowInit(window,640,480);
-
+    windowInit(window, w, h);
 
     Shader shader;
-    Landscape lnd(5);
-    
+    Landscape lnd(10);
     while (!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
@@ -40,7 +41,7 @@ int main()
         glUseProgram(shader.getShaderProgram());
         glBindVertexArray(lnd.getVAO());
         glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-        glDrawElements(GL_TRIANGLES, lnd.getTriangles(), GL_UNSIGNED_INT, 0);
+        glDrawElements(GL_TRIANGLES, lnd.getVertecies(), GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
         glfwSwapBuffers(window);
         glfwPollEvents();

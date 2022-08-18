@@ -316,15 +316,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\main.cpp" />
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Landscape.cpp" />
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Buffer.cpp" />
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Shader.cpp" />
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\VertexAttribute.cpp" />
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Mesh.cpp" />
-    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Shader.cpp" />
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Units.h" />
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Landscape.h" />
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Buffer.h" />
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Shader.h" />
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\VertexAttribute.h" />
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Mesh.h" />
-    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\t7929\source\repos\ProceduralGeneration\build\ZERO_CHECK.proj">

@@ -1,0 +1,107 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/win32_joystick.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6a3236eccc1e94b70155c676b8367334fb0dbe7fde58aabaf7644ac473fe44b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/internal.h"
+          },
+          "hashes": {
+            "sha-256": "f2d22a9c2cf6f52e283f86098a4873f50b55ee07626aba2f9658ffee88acdb3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "7cabb981ecd5a161fa9efb8020140458efcad83cd0f123d0df4e69e0edf6c8f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/platform.h"
+          },
+          "hashes": {
+            "sha-256": "09cc69728639fe6f3c5c7a8e7801b9862c4929964a4ef4fe3d9746636e866bd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/null_platform.h"
+          },
+          "hashes": {
+            "sha-256": "8ebbe9a537145b6e544818ec5cc49e13cd6c7e11d901c2806667c2a2a2d945a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/win32_platform.h"
+          },
+          "hashes": {
+            "sha-256": "2082ab73adb2bdcf70ca6c4b4448827c8e034f60cc9a2bac14d5f12ce859d764"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/null_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "ccd7bec0a32632b0fc81d1c085bba3b89e01a9dc4b6b28cde9ea394909fc700d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/win32_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "db8cc8fe158f8f58285830e336ad03c8e31c6a3042a86a74d3f47cdf3865db84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/win32_thread.h"
+          },
+          "hashes": {
+            "sha-256": "d142b96339b5864f0326dc5dac793c98f825ace4f7eef0bc32d0cdd5528ce1a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/lib/glfw-master/src/win32_time.h"
+          },
+          "hashes": {
+            "sha-256": "ec16d5c07f36b51f59c16ed8660d7438c20055dfdb698d59054825e744026ff0"
+          }
+        }
+      ]
+    }
+  ]
+}

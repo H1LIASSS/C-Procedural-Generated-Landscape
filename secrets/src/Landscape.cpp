@@ -1,15 +1,14 @@
 #include "Landscape.h"
 #include "Units.h"
-#include <vector>
+#include <iostream>
+
+using namespace std;
 
 Landscape::Landscape(const int n)
 {
     vertecies = n * n * 8;
 
     std::vector<Point3> grid;
-
-    
-        
     const int g = n + 1;
     for (int i = 0; i < g; i++)
     {
@@ -49,12 +48,13 @@ Landscape::Landscape(const int n)
         z++;
     }
 
+    indicies;
     GLuint eb;
     glGenBuffers(1, &eb);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, eb);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, indicies.size()*sizeof(GLint), indicies.data(), GL_DYNAMIC_DRAW);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-    
+
     vao.setBuffers(vb, eb);
 
     //for (int i = 0; i < indicies.size(); i += 3)
