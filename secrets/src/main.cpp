@@ -27,13 +27,12 @@ void windowInit(GLFWwindow* window, int width, int height)
 int main()
 {   
     projectInit();
-
     int w = 640, h = 640;
     GLFWwindow* window = glfwCreateWindow(640, 640, "ProceduralGeneration ddgen", NULL, NULL);
     windowInit(window, w, h);
 
     Shader shader;
-    Landscape lnd(10);
+    Landscape lnd(1024);
     while (!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);

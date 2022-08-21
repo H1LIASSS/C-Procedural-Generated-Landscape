@@ -16,8 +16,8 @@ Landscape::Landscape(const int n)
         {
             Point3 a;
             a.x = -1 + ((2.f / (n)) * (j));
-            a.y = -1 + ((2.f / (n)) * (i));
-            a.z = ((rand() % 100) / 100.f) - 1;
+            a.z = -1 + ((2.f / (n)) * (i));
+            a.y = ((rand() % 100) / 100.f) - 1;
             grid.push_back(a);
         }
     } //Generate grid with random height vertex
@@ -36,7 +36,7 @@ Landscape::Landscape(const int n)
         if (z == n)
         {
             z = 0;
-            continue;
+            i++;
         }
         indicies.push_back(i);
         indicies.push_back(i + g);
