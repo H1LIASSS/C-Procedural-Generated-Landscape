@@ -27,19 +27,19 @@ void windowInit(GLFWwindow* window, int width, int height)
 int main()
 {   
     projectInit();
-    int w = 640, h = 640;
-    GLFWwindow* window = glfwCreateWindow(640, 640, "ProceduralGeneration ddgen", NULL, NULL);
+    int w = 1920, h = 320;
+    GLFWwindow* window = glfwCreateWindow(w, h, "ProceduralGeneration ddgen", NULL, NULL);
     windowInit(window, w, h);
 
     Shader shader;
-    Landscape lnd(1024);
+    Landscape lnd(50);
     while (!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
 
         glUseProgram(shader.getShaderProgram());
         glBindVertexArray(lnd.getVAO());
-        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+        glPolygonMode(GL_FRONT_AND_BACK, GL_TRIANGLES);
         glDrawElements(GL_TRIANGLES, lnd.getVertecies(), GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
         glfwSwapBuffers(window);
