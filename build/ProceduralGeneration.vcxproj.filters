@@ -10,13 +10,13 @@
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\VertexAttribute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Mesh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\src\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,13 +30,13 @@
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\VertexAttribute.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Mesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\secrets\include\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

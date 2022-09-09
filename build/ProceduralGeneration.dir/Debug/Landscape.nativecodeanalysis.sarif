@@ -1,0 +1,417 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 17,
+                  "endLine": 6,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 22,
+                  "endLine": 19,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 22,
+                  "endLine": 19,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 35,
+                  "endLine": 26,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 42,
+                  "endLine": 26,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 38,
+                  "endLine": 27,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 23,
+                  "endLine": 30,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 23,
+                  "endLine": 31,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 39,
+                  "endLine": 31,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 23,
+                  "endLine": 32,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Landscape::generateAndBlendLandscape",
+                  "decoratedName": "?generateAndBlendLandscape@Landscape@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/t7929/source/repos/ProceduralGeneration/secrets/src/Landscape.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "63b88bbb57f8abc3afb51bfed082012597114193bc66eb3bacdf27f4f6d57d45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/secrets/include/landscape.h"
+          },
+          "hashes": {
+            "sha-256": "395bf6f43da0b053ae9ecf535d5958852050d081e3d247f5778dc46849354203"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/t7929/source/repos/proceduralgeneration/secrets/include/units.h"
+          },
+          "hashes": {
+            "sha-256": "92870d84c371b4435fd07931d6d7a9c93838e2739df20130e435c9ca4392b8d3"
+          }
+        }
+      ]
+    }
+  ]
+}

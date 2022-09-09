@@ -8,17 +8,17 @@ set(INCLUDE
 	secrets/include/Units.h
 	secrets/include/Landscape.h
 	secrets/include/Buffer.h
+	secrets/include/Shader.h
 	secrets/include/VertexAttribute.h
-	secrets/include/Mesh.h
-	secrets/include/Shader.h)
+	secrets/include/Mesh.h)
 
 set(SOURCE
 	secrets/src/main.cpp
 	secrets/src/Landscape.cpp
 	secrets/src/Buffer.cpp
+	secrets/src/Shader.cpp
 	secrets/src/VertexAttribute.cpp
-	secrets/src/Mesh.cpp
-	secrets/src/Shader.cpp)
+	secrets/src/Mesh.cpp)
 	
 add_executable(ProceduralGeneration ${SOURCE} ${INCLUDE})	
 	

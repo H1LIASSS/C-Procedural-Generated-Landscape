@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\platform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\vulkan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\egl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\osmesa_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\null_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\null_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\null_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\null_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\mappings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\null_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\null_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\win32_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\t7929\source\repos\ProceduralGeneration\lib\glfw-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A7B8E44-058C-358A-BB91-1B3EC2799DC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DA454169-38E9-3290-A758-0A5E62C2710A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

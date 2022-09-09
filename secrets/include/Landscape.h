@@ -6,7 +6,7 @@ class Landscape : virtual public Mesh
 {
 public:
 	Landscape(const int n);
-	int& getTriangles() { return vertecies; };
+	int& getVertecies() { return vertecies; };
 protected:
 
 private:

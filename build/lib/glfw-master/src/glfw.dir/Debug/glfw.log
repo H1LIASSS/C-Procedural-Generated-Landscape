@@ -1,36 +1,26 @@
 ﻿  Building Custom Rule C:/Users/t7929/source/repos/ProceduralGeneration/lib/glfw-master/src/CMakeLists.txt
-  CMake is re-running because C:/Users/t7929/source/repos/ProceduralGeneration/build/lib/glfw-master/src/CMakeFiles/generate.stamp is out-of-date.
-    the file 'C:/Users/t7929/source/repos/ProceduralGeneration/lib/glfw-master/CMake/glfw3.pc.in'
-    is newer than 'C:/Users/t7929/source/repos/ProceduralGeneration/build/lib/glfw-master/src/CMakeFiles/generate.stamp.depend'
-    result='-1'
-  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
-  -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
-  -- Including Win32 support
-  -- Configuring done
-  -- Generating done
-  -- Build files have been written to: C:/Users/t7929/source/repos/ProceduralGeneration/build
   context.c
-  egl_context.c
   init.c
   input.c
   monitor.c
-  null_init.c
-  null_joystick.c
-  null_monitor.c
-  null_window.c
-  osmesa_context.c
   platform.c
   vulkan.c
-  wgl_context.c
+  window.c
+  egl_context.c
+  osmesa_context.c
+  null_init.c
+  null_monitor.c
+  null_window.c
+  null_joystick.c
+  win32_module.c
+  win32_time.c
+  win32_thread.c
   win32_init.c
   win32_joystick.c
-  win32_module.c
   win32_monitor.c
-  win32_thread.c
-  win32_time.c
   win32_window.c
   Generating Code...
   Compiling...
-  window.c
+  wgl_context.c
   Generating Code...
   glfw.vcxproj -> C:\Users\t7929\source\repos\ProceduralGeneration\build\lib\glfw-master\src\Debug\glfw3.lib
